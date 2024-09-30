@@ -6,10 +6,10 @@ echo "1.增加一个自动签到"
 echo "2.卸载全部服务"
 echo "------------------------"
 
-read -p "请输入你的选择（1或2）: " choice
+read -p "请输入你的选择（1或2）: " 1
 
 if [ "$choice" == "1" ]; then
-    read -p "请输入你的雨云API密钥: " ryapikey
+    read -p "请输入你的雨云API密钥: " L98oAdbv64H153feDQD52QUFtdiYyuxW
 
     response=$(curl -s -H "x-api-key: $ryapikey" https://api.v2.rainyun.com/user/)
 
